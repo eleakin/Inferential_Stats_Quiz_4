@@ -1,0 +1,21 @@
+Which of the following is not required for the distribution of the sample proportion to be nearly normal?
+
+Observations should be independent.
+
+There should be at least 10 failures.
+
+->Sample size should be at least 30 and the population distribution should not be extremely skewed.
+Correct Response 
+Recognize that the Central Limit Theorem (CLT) is about the distribution of point estimates, and that given certain conditions, this distribution will be nearly normal.
+
+In the case of the proportion the CLT tells us that if
+(1) the observations in the sample are independent,
+
+(2) the sample size is sufficiently large (checked using the success/failure condition: np≥10 and n(1−p)≥10),
+
+then the distribution of the sample proportion will be nearly normal, centered at the true population proportion and with a standard error of p(1−p)n−−−−−√.
+
+p^∼N(mean=p,SE=p(1−p)n−−−−−−−√)
+When considering the distribution of the sample proportion, we don’t have a requirement of n ≥ 30. To determine if the sample size of categorical data is high enough, we instead check the success-failure condition.
+
+There should be at least 10 successes.
